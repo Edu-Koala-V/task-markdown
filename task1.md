@@ -6,7 +6,7 @@
 
 ## Treść zadania
 
-- Dodaj nowy dysk **SATA** do maszyny z _**Windows 11**_.
+- Dodaj nowy dysk **SATA** ($$2GB$$) do maszyny z _**Windows 11**_.
 
 - Wykorzystując przystawkę "*Zarządzanie dyskami*" przygotuj nowy wolumin z dowolną literką i nazwą "`Zmierzch`".
 
