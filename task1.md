@@ -1,4 +1,4 @@
-# Kontrola wersji plików – historia plików użytkowników Windows
+# Kontrola wersji plików - historia plików użytkowników Windows
 
 ## Wymagania wstępne
 
