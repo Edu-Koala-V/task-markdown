@@ -16,15 +16,15 @@
 
 - Dokonaj konfiguracji interfejsów sieciowych działających w trybie `Sieć wewnętrzna`.
 
-| _**Ubuntu 24.04 Server**_ |                      |
-| ------------------------- | -------------------- |
-| Adres IP                  | `10.0.5.20/16`       |
-| Adresy DNS                | `8.8.4.4`, `1.1.1.1` |
-
-| _**Ubuntu 24.04 Desktop**_ |                    |
-| -------------------------- | ------------------ |
-| Adres IP                   | `10.0.10.30/16`     |
-| Adres bramy domyślnej      | `Adres IP Servera` |
-| Adresy DNS                 | `Adres IP Servera` |
+    | _**Ubuntu 24.04 Server**_ |                      |
+    | ------------------------- | -------------------- |
+    | Adres IP                  | `10.0.5.20/16`       |
+    | Adresy DNS                | `8.8.4.4`, `1.1.1.1` |
+    
+    | _**Ubuntu 24.04 Desktop**_ |                    |
+    | -------------------------- | ------------------ |
+    | Adres IP                   | `10.0.10.30/16`     |
+    | Adres bramy domyślnej      | `Adres IP Servera` |
+    | Adresy DNS                 | `Adres IP Servera` |
 
 - Przeprowadź test łączności komendą `ping` pomiędzy maszynami.
