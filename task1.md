@@ -1,5 +1,3 @@
-# Wstęp do kursu
-
 # Kontrola wersji plików – historia plików użytkowników Windows
 
 ## Wymagania wstępne
