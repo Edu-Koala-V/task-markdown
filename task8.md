@@ -12,7 +12,7 @@ Utwórz dwóch użytkowników lokalnych:
 
 - Napisz skrypt _**powershell**_ który po uruchomieniu utworzy katalog `[nazwa_użytkownika]` w lokalizacji `C:\`.
 
-- Usuń wszystkie uprawnienia i wyłącz *dziedziczenie* na nowo utworzonym katalogu.
+- **_Usuń wszystkie uprawnienia_** i wyłącz *dziedziczenie* na nowo utworzonym katalogu.
 
 - W zależności od tego jaki użytkownik uruchomi skrypt to on ma mieć pełne prawa do katalogu natomiast ten drugi ma mieć odmówione prawo do odczytu.
 
