@@ -1,22 +1,21 @@
-# PowerShell Scripting: Interaktywne narzędzie diagnostyczne sieci
+# Skrypt PowerShell: Kreator udziałów sieciowych na nowym dysku
+
 ## Wymagania wstępne
-- Maszyna wirtualna z systemem **Windows 11**.
-- Zainstalowany **PowerShell ISE**.
-- Polityka wykonywania skryptów ustawiona na **`RemoteSigned`**.
+
+- Maszyna virtualna z systemem _**Windows 11**_.
+
 ## Treść zadania
-- Uruchom **PowerShell ISE** jako administrator.
-- Napisz interaktywny skrypt **PowerShell**, który będzie służył do podstawowej diagnostyki sieci. Skrypt powinien:
-    - Wyświetlić menu z opcjami:
-        1.  `ipconfig /all` (wyświetlenie pełnej konfiguracji sieciowej).
-        2.  `ping` (testowanie łączności z adresem IP/nazwą hosta).
-        3.  `nslookup` (zapytanie DNS o adres IP domeny).
-        4.  `netstat -aon` (wyświetlenie aktywnych połączeń i nasłuchujących portów z PID).
-        5.  Wyjście.
-    - Użyj pętli **`while`**, aby menu wyświetlało się tak długo, aż użytkownik nie wybierze opcji wyjścia.
-    - Użyj **`Read-Host`** do pobrania wyboru użytkownika.
-    - Użyj instrukcji **`switch`**, aby wykonać odpowiednie polecenie w zależności od wyboru użytkownika:
-        - Dla `ipconfig /all` i `netstat -aon`, po prostu wykonaj komendę.
-        - Dla `ping`: zapytaj użytkownika o adres IP lub nazwę hosta do spingowania.
-        - Dla `nslookup`: zapytaj użytkownika o nazwę domeny.
-    - Zaimplementuj **obsługę błędów** za pomocą bloku **`try-catch`** dla operacji sieciowych (np. gdy ping nie znajdzie hosta lub nslookup nie rozwiąże nazwy). Użyj **`Write-Error`** do wyświetlania komunikatów o błędach. **Pamiętaj o `-ErrorAction Stop` dla poleceń, które domyślnie generują błędy nieterminujące**.
-- Po każdym wykonanym poleceniu, skrypt powinien poczekać na naciśnięcie Enter, zanim wróci do menu.
+
+- Dodaj nowy dysk **SATA** ($$2GB$$) do maszyny z _**Windows 11**_.
+
+- Utwórz użytkownika lokalnego: `Marek`
+
+- Napisz skrypt _**powershell**_ który:
+  
+  - po uruchomieniu sprawdzi czy w systemie są co najmniej $$2$$ dyski.
+
+  - Przetworzy dodatkowy dysk na wolumin **_GPT_** z literą `M`
+
+  - Na nowym woluminie utworzy się katalog `katalog_share\`.
+
+  - Utworzy udział sieciowy z lokalizacji `M:\katalog_share\` dla użytkownika `Marek` 
