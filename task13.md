@@ -1,4 +1,4 @@
-# Windows IIS - strona www
+# Domena AD użytkownicy, profile i czas
 
 ## Wymagania wstępne
 
@@ -27,4 +27,5 @@ Dla klientów pozostaw jedynie jedną, działającą w trybie `sieć wewnętrzna
 ## Wynik
 
 - W zależności od bieżącej godziny dostępne jest logowanie jedynie dla dwóch z trzech nowych użytkowników.  
+
 - Po zalogowaniu się na `Host1` i zmianie tła pulpitu, ustawienie to zostanie automatycznie przeniesione na drugiego klienta domeny, gdy zalogujesz się tym samym kontem na `Host2`.
