@@ -11,5 +11,5 @@
     - Użytkownik **`Manager`** ma mieć **pełną kontrolę (FULL)**.
     - Użytkownik **`Pracownik`** ma mieć **tylko odczyt (READ)**.
     - Upewnij się, że grupa **"Wszyscy" nie ma dostępu** do udziału.
-- **Zweryfikuj dostęp** do udziału z poziomu innej maszyny wirtualnej (jeśli dostępna) lub z konta **`Pracownik`** i **`Manager`** na tej samej maszynie. Spróbuj utworzyć/modyfikować pliki jako `Pracownik` i `Manager`.
+- **Zweryfikuj dostęp** do udziału z poziomu *innej maszyny wirtualnej*! Spróbuj utworzyć/modyfikować pliki jako `Pracownik` i `Manager`.
 - Przejdź do właściwości folderu `C:\DaneFirmowe` w Eksploratorze plików (Prawy przycisk myszy > Właściwości > Zabezpieczenia). **Opisz, w jaki sposób uprawnienia NTFS mogą nadpisać (ograniczyć) uprawnienia udostępniania**.
